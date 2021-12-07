@@ -1,0 +1,66 @@
+h1 {
+    color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    color: green;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+h1 + p {
+    font-size: 150%;
+}
+
+a:link {
+    color:rebeccapurple
+}
+
+a:hover {
+    color: pink;
+}
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+  }
+
+.inverted {
+    background-color: blue;
+    color: white;
+}
+
+.isahi {
+    background-color: yellow;
+}
+.fancy {
+    color: green;
+}
+
+.isapic {
+    height: auto;
+    width: 300px;
+    text-align: right;
+}
+
+
+h4 {
+font-size: larger;
+color: pink;
+}
+
+.color {
+    color: green;
+}
